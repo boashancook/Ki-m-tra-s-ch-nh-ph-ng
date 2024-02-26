@@ -1,0 +1,9 @@
+clrscr();
+	int n;
+	printf("Nhap so nguyen duong n=");
+	scanf("%d", &n);
+	if (socp(n)) printf("\n%d la so chinh phuong", n);
+	else printf("\n%d khong phai so chinh phuong", n);
+	if (soptg(n)) printf("\n%d la so Pitago", n);
+	else printf("\n%d khong phai so Pitago", n);
+	getch();
